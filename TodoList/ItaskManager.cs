@@ -4,9 +4,9 @@
     {
         void AddTask();
         void ViewTasks();
-        void MarkTaskByIndex();
-        void DeleteTaskByIndex();
-        void UpdateTaskByIndex();
+        void MarkTask();
+        void DeleteTask();
+        void UpdateTask();
         void SaveTasks();
         void LoadTasks();
     }

@@ -4,12 +4,10 @@
     {
         private readonly ItaskManager taskManager;
         private bool isRunning = true;
-
         public ConsoleUI(ItaskManager taskManager)
         {
             this.taskManager = taskManager;
         }
-
         private void DisplayMenu()
         {
             Console.WriteLine("\n--- TO-DO LIST MENU ---");
@@ -22,7 +20,6 @@
             Console.WriteLine("7. Exit");
             Console.Write("Enter choice: ");
         }
-
         public void ShowMenu()
         {
             taskManager.LoadTasks();
@@ -47,15 +44,15 @@
                     break;
 
                 case "3":
-                    taskManager.MarkTaskByIndex();
+                    taskManager.MarkTask();
                     break;
 
                 case "4":
-                    taskManager.DeleteTaskByIndex();
+                    taskManager.DeleteTask();
                     break;
 
                 case "5":
-                    taskManager.UpdateTaskByIndex();
+                    taskManager.UpdateTask();
                     break;
 
                 case "6":

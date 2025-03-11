@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TodoList")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8eadf0ad9a241419c491c9d9485b385589b3d12")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d9f9d09546c8cba5526671601660bdaa15b4666")]
->>>>>>> 236e4c7 (update TaskManager.cs and Program.cs, add ITaskManager.cs and ConsoleUI.cs)
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de2f3208fec00fd05a0f006d66b9fa5954d20212")]
 [assembly: System.Reflection.AssemblyProductAttribute("TodoList")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TodoList")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
