@@ -1,1 +1,0 @@
-{"name":"Local: Program","url":"d:\\Workspace\\c#\\Lesson1\\Program.cs","tests":[{"id":1743862165093,"input":"12321","output":"true"},{"id":1744113973274,"input":"12343","output":"false"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Workspace\\c#\\Lesson1\\Program.cs","group":"local","local":true}
