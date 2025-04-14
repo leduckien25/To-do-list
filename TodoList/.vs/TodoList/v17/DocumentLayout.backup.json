@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\Workspace\\c#\\TodoList\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{66661CE7-F633-4C78-8345-EDAD5DEC3D3D}|TodoList.csproj|d:\\workspace\\c#\\todolist\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66661CE7-F633-4C78-8345-EDAD5DEC3D3D}|TodoList.csproj|solutionrelative:taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{66661CE7-F633-4C78-8345-EDAD5DEC3D3D}|TodoList.csproj|d:\\workspace\\c#\\todolist\\consoleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66661CE7-F633-4C78-8345-EDAD5DEC3D3D}|TodoList.csproj|solutionrelative:consoleui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,12 +11,16 @@
       "RelativeMoniker": "D:0:0:{66661CE7-F633-4C78-8345-EDAD5DEC3D3D}|TodoList.csproj|solutionrelative:itaskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{66661CE7-F633-4C78-8345-EDAD5DEC3D3D}|TodoList.csproj|d:\\workspace\\c#\\todolist\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66661CE7-F633-4C78-8345-EDAD5DEC3D3D}|TodoList.csproj|solutionrelative:taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{66661CE7-F633-4C78-8345-EDAD5DEC3D3D}|TodoList.csproj|d:\\workspace\\c#\\todolist\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66661CE7-F633-4C78-8345-EDAD5DEC3D3D}|TodoList.csproj|solutionrelative:taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{66661CE7-F633-4C78-8345-EDAD5DEC3D3D}|TodoList.csproj|d:\\workspace\\c#\\todolist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66661CE7-F633-4C78-8345-EDAD5DEC3D3D}|TodoList.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66661CE7-F633-4C78-8345-EDAD5DEC3D3D}|TodoList.csproj|d:\\workspace\\c#\\todolist\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66661CE7-F633-4C78-8345-EDAD5DEC3D3D}|TodoList.csproj|solutionrelative:taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,77 +30,81 @@
       "DocumentGroups": [
         {
           "DockedHeight": 293,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ConsoleUI.cs",
               "DocumentMoniker": "D:\\Workspace\\c#\\TodoList\\ConsoleUI.cs",
               "RelativeDocumentMoniker": "ConsoleUI.cs",
               "ToolTip": "D:\\Workspace\\c#\\TodoList\\ConsoleUI.cs",
               "RelativeToolTip": "ConsoleUI.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAgwDEAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAkwEUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T02:33:24.016Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "ItaskManager.cs",
               "DocumentMoniker": "D:\\Workspace\\c#\\TodoList\\ItaskManager.cs",
               "RelativeDocumentMoniker": "ItaskManager.cs",
               "ToolTip": "D:\\Workspace\\c#\\TodoList\\ItaskManager.cs",
               "RelativeToolTip": "ItaskManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-11T02:28:01.123Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "TaskManager.cs",
               "DocumentMoniker": "D:\\Workspace\\c#\\TodoList\\TaskManager.cs",
               "RelativeDocumentMoniker": "TaskManager.cs",
               "ToolTip": "D:\\Workspace\\c#\\TodoList\\TaskManager.cs",
               "RelativeToolTip": "TaskManager.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAQwC8AAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIIAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-10T02:58:06.594Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TaskItem.cs",
               "DocumentMoniker": "D:\\Workspace\\c#\\TodoList\\TaskItem.cs",
               "RelativeDocumentMoniker": "TaskItem.cs",
               "ToolTip": "D:\\Workspace\\c#\\TodoList\\TaskItem.cs",
               "RelativeToolTip": "TaskItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-10T02:55:54.696Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Workspace\\c#\\TodoList\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Workspace\\c#\\TodoList\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-10T02:48:01.607Z",
               "EditorCaption": ""
@@ -114,10 +118,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
             },
             {
               "$type": "Bookmark",

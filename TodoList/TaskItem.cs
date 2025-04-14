@@ -6,7 +6,7 @@
         public bool IsCompleted { get; set; }
         public TaskItem(string description)
         {
-            this.Description = description;
+            Description = description;
             IsCompleted = false;
         }
     }

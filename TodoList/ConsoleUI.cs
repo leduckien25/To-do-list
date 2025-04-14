@@ -10,6 +10,7 @@
         }
         private void DisplayMenu()
         {
+            Console.Clear();
             Console.WriteLine("\n--- TO-DO LIST MENU ---");
             Console.WriteLine("1. Add Task");
             Console.WriteLine("2. View Tasks");
@@ -27,7 +28,7 @@
             while (isRunning)
             {
                 DisplayMenu();
-                string choice = Console.ReadLine();
+                string choice = Console.ReadLine()!;
                 ProcessChoice(choice);
             }
         }

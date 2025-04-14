@@ -6,24 +6,38 @@
         public void AddTask()
         {
             Console.Write("Enter task description: ");
-            string description = Console.ReadLine();
+            string description = Console.ReadLine()!;
             tasks.Add(new TaskItem(description));
             Console.WriteLine("Task added successfully!");
         }
         public void ViewTasks()
         {
+
             if (!tasks.Any())
             {
                 Console.WriteLine("No tasks available.");
                 return;
             }
-
+            
+            Console.Clear();
             Console.WriteLine("--- Your To-Do List ---");
 
             for (int i = 0; i < tasks.Count; i++)
             {
                 Console.WriteLine($"No.{i + 1}: {tasks[i].Description}, status: {(tasks[i].IsCompleted ? "[v]" : "[ ]")}");
             }
+
+            Console.WriteLine("0. Exit");
+            while (true)
+            {
+                int choice = int.Parse(Console.ReadLine());
+                if (choice == 0) break;
+                else
+                {
+                    Console.WriteLine("Invalid input.");
+                }
+            }
+            
         }
         public void MarkTask()
         {
@@ -76,7 +90,7 @@
         public void UpdateTask()
         {
             Console.Write("Enter index and new description: ");
-            string[] input = Console.ReadLine().Split(' ');
+            string[] input = Console.ReadLine()!.Split(' ');
 
             if (input.Length == 2 && int.TryParse(input[0], out int updateIndex))
             {
@@ -118,7 +132,7 @@
             using (StreamReader reader = new("tasks.txt"))
             {
                 string line;
-                while ((line = reader.ReadLine()) != null)
+                while ((line = reader.ReadLine()!) != null)
                 {
                     string[] parts = line.Split('|');
                     if (parts.Length == 2)
